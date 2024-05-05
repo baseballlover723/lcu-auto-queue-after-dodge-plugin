@@ -1,0 +1,30 @@
+{
+  "name": "lcu-auto-queue-after-dodge-plugin",
+  "version": "2.0.0",
+  "description": "A Plugin for the League of Legends Client that queues the party up when all matchmaking errors are resolved.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baseballlover723/lcu-auto-queue-after-dodge-plugin.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/autoQueueAfterDodgeLcuPlugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "lcu-plugin": "2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "keywords": [],
+  "author": "baseballlover723",
+  "license": "GPL3"
+}
